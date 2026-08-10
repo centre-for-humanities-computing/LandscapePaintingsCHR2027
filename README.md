@@ -4,7 +4,7 @@ This folder contains the code for the paper "Under the Canopy: A Methodological 
 
 ## Data and use
 
-This folder contains scripts to train a classifier, conduct the ablation and view the ablation maps. You can either go through the stepts yourself with the provided data for each ([train-classifier.parquet](https://huggingface.co/datasets/chcaa/northern-landscape-painting/tree/main/train-classifier), [projection heads](https://huggingface.co/datasets/chcaa/northern-landscape-painting/tree/main/projection-heads)) or use the full parquet file with the predictions and results [provided](https://huggingface.co/datasets/chcaa/northern-landscape-painting/tree/main/ablations). For the tree classification, the full parquet with both cut-out segments, full images with bounding boxes and prediticions can be found [here](https://huggingface.co/datasets/chcaa/CHR_detection_trees/tree/main/classifier).
+This folder contains scripts to train a classifier, conduct the ablation and view the ablation maps. You can either go through the stepts yourself with the provided data for each ([train-classifier file](https://huggingface.co/datasets/chcaa/northern-landscape-painting/tree/main/train-classifier), [projection heads](https://huggingface.co/datasets/chcaa/northern-landscape-painting/tree/main/projection-heads)) or use the full parquet file with the predictions and results [provided](https://huggingface.co/datasets/chcaa/northern-landscape-painting/tree/main/ablations). For the tree classification, the full parquet with both cut-out segments, full images with bounding boxes and prediticions can be found [here](https://huggingface.co/datasets/chcaa/CHR_detection_trees/tree/main/classifier).
 
 ## Structure
 
