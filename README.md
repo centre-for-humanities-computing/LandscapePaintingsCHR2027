@@ -13,13 +13,16 @@ LandscapePaintings_Detection_Classification_and_Evaluation/classification
 │   ablation.py                      # runs ablation on trained classifiers. See config at top for parameters
 │   ablation-viewer.py               # viewer to explore the ablation maps
 │   train-classifier.py
-│   requirements.txt                     # requirements for the whole pipeline (be mindful of the correct torch version for your system)
+│   requirements.txt                 # requirements for the whole pipeline (be mindful of the correct torch version for your system)
 
 ```
 
 ## Data
 
 Data to train the classifier: https://huggingface.co/datasets/chcaa/northern-landscape-painting/tree/main/train-classifier
+
 Projection heads: https://huggingface.co/datasets/chcaa/northern-landscape-painting/tree/main/projection-heads
+
 Tree-based classifier training data: 
+
 Ablation results: https://huggingface.co/datasets/chcaa/northern-landscape-painting/tree/main/ablations
