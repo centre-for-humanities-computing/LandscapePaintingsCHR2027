@@ -18,6 +18,6 @@ LandscapePaintings_Detection_Classification_and_Evaluation/classification
 │   ablation-viewer.py               # viewer to explore the ablation maps
 │   requirements.txt                 # requirements for the whole pipeline (be mindful of the correct torch version for your system)
 │   train-classifier.py              # script to train classifiers for ablation
-│   tree-viewer.py                   # viewer to explore the tree-based classifier
+│   tree-based-viewer.py             # viewer to explore the tree-based classifier
 
 ```

@@ -29,7 +29,7 @@ from PIL import Image
 
 # ── CONFIG ────────────────────────────────────────────────────────────────────
 
-ATTRIBUTION_PARQUET = "data/attribution_scores_fold.parquet"   
+ATTRIBUTION_PARQUET = "data/ablation_scores-fold.parquet"   
 # or _full -- matches ablation.py's output
 
 GRID_SIZE           = 4        # must match training
