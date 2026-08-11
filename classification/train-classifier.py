@@ -24,9 +24,7 @@ from sklearn.model_selection import GroupKFold
 from sklearn.preprocessing import LabelEncoder
  
 
-# ============================================================
-# CONFIG
-# ============================================================
+# ── CONFIG ────────────────────────────────────────────────────────────────────
 
 CONFIG = {
     "data": {
@@ -50,9 +48,7 @@ CONFIG["output"] = {
     "metrics_txt":  os.path.join(_out_dir, "metrics_report.txt"),
 }
 
-# ============================================================
-# UTILITIES
-# ============================================================
+# ── Utilities ────────────────────────────────────────────────────────────────────
 
 def load_parquet_robust(path):
     return pl.read_parquet(path).to_pandas()
@@ -125,9 +121,7 @@ def format_metrics_report(embedding_col, class_names, fold_metrics, y_true, y_pr
     return "\n".join(lines)
 
 
-# ============================================================
-# MAIN
-# ============================================================
+# ── Main ────────────────────────────────────────────────────────────────────
 
 def main():
     embedding_col = CONFIG["embedding_col"]
