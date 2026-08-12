@@ -1,0 +1,29 @@
+# Data files — available on HuggingFace
+*.parquet
+*.tar-2.gz
+results/
+data/
+
+# Generated figures and outputs
+figures/
+iframe_figures/
+*.pdf
+*.png
+*.jpg
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+!CHREADH.ipynb
+
+# Python
+__pycache__/
+*.pyc
+.venv*/
+
+# Misc
+*.numbers
+*.csv
+*.xlsx
+*.json
+.DS_Store
