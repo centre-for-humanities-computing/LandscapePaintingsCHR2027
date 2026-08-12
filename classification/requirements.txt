@@ -1,0 +1,16 @@
+# Packages to install:
+
+transformers>=4.44
+open-clip-torch>=2.26
+scikit-learn>=1.4
+polars>=1.0
+pandas>=2.0
+numpy>=1.26
+joblib>=1.3
+tqdm>=4.66
+Pillow>=10.0
+matplotlib>=3.8
+ 
+# Separately install torch / torchvision, see:
+# https://pytorch.org/get-started/locally/
+# https://github.com/pytorch/pytorch/wiki/PyTorch-Versions
