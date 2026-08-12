@@ -18,7 +18,7 @@ LandscapePaintings_Detection_Classification_and_Evaluation/classification
 ├── classifiers/                     # gets created when running train-classifier, contains metrics, joblib and predictions per model
 │   ablation.py                      # runs ablation on trained classifiers. See config at top for parameters
 │   ablation-viewer.py               # viewer to explore the ablation maps
-│   requirements.txt                 # requirements for the whole pipeline (be mindful of the correct torch version for your system)
+│   requirements.txt                 # requirements for the whole pipeline (except torch and torchvision, those depend on your system!)
 │   train-classifier.py              # script to train classifiers for ablation
 │   tree-based-viewer.py             # viewer to explore the tree-based classifier
 
