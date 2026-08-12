@@ -30,7 +30,7 @@ LandscapePaintings_Detection_Classification_and_Evaluation/classification
 
 A computational analysis containing object detection analysis used for a paper submitted to CHR conference 2027.
 
-## What this project does
+## What this analysis does
 
 Using a corpus of digitised paintings and an automated tree-detection pipeline (SAM3 segmentation), this project investigates:
 
